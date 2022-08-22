@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@easy-cipher/caesar": "^1.1.0",
+    "caesar-shift": "^1.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "md5": "^2.3.0",
+    "mongoose": "^6.3.3",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "sha1": "^1.1.1",
+    "social-post-api": "^1.0.20",
+    "twit": "^2.2.11"
+  }
+}
